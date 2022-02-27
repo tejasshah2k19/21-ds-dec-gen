@@ -14,8 +14,8 @@ int main(){
             printf("\n1 For Yes\n0 For No");
             scanf("%d",&choice);
 
-            graph[i][j] = choice;
-            graph[j][i] = choice;
+            graph[i][j] = choice; //A - B ==> yes
+            graph[j][i] = choice; //B - A ==> yes
         }
 
     }
